@@ -8,7 +8,7 @@ output_table = 'WORK.PYTHONOUT'
 # set input data to pipe from SAS
 dfin = SAS.sd2df(input_table)
 
-# output to the log details about the table
+# output to the log details about the 
 print("input data shape is:", dfin.shape)
 
 # call the python transpose
